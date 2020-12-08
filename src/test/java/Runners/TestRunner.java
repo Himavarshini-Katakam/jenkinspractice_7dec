@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 features = "C:\\Hima\\java_capgemini\\DemoWebShopMaven\\src\\test\\java\\features"
 ,glue={"StepDefinitions"}
-,tags={"@SuccessfulLogin,@UnsuccessfulLogin"}
+,tags={"@SuccessfulLogin"}
 ,plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"}
 
 
